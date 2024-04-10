@@ -1,0 +1,62 @@
+.spin{
+    margin:20px 0 20px 500px;
+  height:100px;
+  width: 100px;
+  border-radius: 50%;
+  border:3px solid whitesmoke ;
+  border-top: 8px solid green;
+  
+  animation: Ani 0.5s linear 0s infinite normal none;
+ 
+
+}
+
+@keyframes Ani{
+  0%{
+      transform: rotate(0deg);
+      /* border:6px solid rgb(105, 210, 127) ; */
+  border:5px solid whitesmoke ;
+
+
+
+      border-top:5px solid green;
+      
+      
+  }
+  25%{
+      transform: rotate(90deg);
+  /* border:6px solid rgb(158, 158, 196) ; */
+  border:5px solid whitesmoke ;
+
+
+      border-top:5px solid blue;
+
+  }
+  50%{
+      transform: rotate(180deg);
+  /* border:6px solid rgb(194, 137, 137) ; */
+      border:5px solid whitesmoke ;
+
+
+      border-top:5px solid red;
+
+  }
+  75%{
+      transform: rotate(270deg);
+  /* border:6px solid rgb(173, 152, 118) ; */
+  border:5px solid whitesmoke ;
+
+
+      border-top:5px solid  orange;
+
+  }
+  100%{
+      transform: rotate(360deg);
+  /* border:6px solid rgb(144, 186, 153) ; */
+  border:5px solid whitesmoke ;
+
+
+      border-top:5px solid  green;
+
+  }
+}
